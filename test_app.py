@@ -1,3 +1,4 @@
+#1
 def test_metrics_route(client):
     # Сначала делаем запрос к /time, чтобы увеличить счётчик
     client.get('/time')
